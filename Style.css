@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigasi {
+    background-color: rgb(83, 196, 158);
+    color: white;
+    width: 100%;
+    height: 40px
+}
+
+.logo img{
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+h4{
+    padding-top: 10px;
+    margin-left: 50px;
+    height: 30px;
+    font-family: verdana;
+    position: relative;
+}
+
+h4::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+h4::before{
+    background: rgb(83, 196, 158);
+    animation: tulisan 5s forwards;
+}
+
+@keyframes tulisan{
+    to{
+        left: 100%
+    }
+}
+
+
+.halaman{
+    color: white;
+    overflow-x:hidden;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(-30deg, #6944ff 0%, #78efbf 100%);
+}
+
+.biodata{
+    padding-top: 40px;
+}
+.pics img{
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 60px;  
+}
+
+.latar{
+    background: #ffffff56;
+    width: 100%;
+    max-width: 600px;
+    margin:auto;
+    margin-top:10px;
+    height: 200px;
+    border-radius: 50px; 
+}
+.text{
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: 'Times New Roman';
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+ul{    
+    text-align: center;
+    padding-top: 25px;
+}
+
+
